@@ -160,6 +160,24 @@
         width: 230px;
         height: 200px;
         top: 66px;
+
+        animation-name: floating-logo;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes floating-logo {
+        0%{
+            transform: translate(0,0);
+        }
+        50%{
+            transform: translate(0,-5px);
+        }
+        100%{
+            transform: translate(0,0);
+        }
+        
     }
 
     .comp_name{
@@ -242,20 +260,20 @@
     .left_circle{
         position: absolute;
         z-index: 2;
-        left: -490px;
-        bottom: -220px;
+        left: -116px;
+        bottom: -189px;
     }
     
     .right_btm{
         position: absolute;
         z-index: 3;
-        right: -435px;
+        right: -104px;
         bottom: -145px;
     }
     
     .right_top{
         position: absolute;
-        right: -336px;
-        top: -220px;
+        right: -89px;
+        top: -170px;
     }
 }
