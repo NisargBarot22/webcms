@@ -147,6 +147,11 @@
 }
 
 @media (max-width: 480px) {
+
+    *{
+        overflow: hidden;
+    }
+
     .left_circle{
         position: absolute;
         z-index: 2;
@@ -172,7 +177,7 @@
             transform: translate(0,0);
         }
         50%{
-            transform: translate(0,-5px);
+            transform: translate(0,-10px);
         }
         100%{
             transform: translate(0,0);
