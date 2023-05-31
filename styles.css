@@ -11,11 +11,6 @@
     display: flex;
     justify-content: center;
 
-    @media only screen and (max-width: 480px) {
-        background-color: #000B31;
-        display: flex;
-        justify-content: center;
-      }
 }
 
 
@@ -24,6 +19,8 @@
     z-index: 2;
     left: -490px;
     bottom: -220px;
+
+   
 }
 
 .right_btm{
@@ -45,14 +42,6 @@
     width: 481px;
     height: 317px;
     top: 13px;
-
-    @media only screen and (max-width: 480px) {
-        position: absolute;
-        justify-content: center;
-        width: 200px;
-        height: 200px;
-        top: 13px;
-      }
 }
 
 .comp_name{
@@ -72,23 +61,6 @@
     flex-grow: 0;
     z-index: 6;
 
-    @media only screen and (max-width: 480px) {
-        position: absolute;
-        justify-content: center;
-        width: 394px;
-        height: 104px;
-        top: 170px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 78px;
-        line-height: 95px;
-        color: #FFFFFF;
-        flex: none;
-        order: 6;
-        flex-grow: 0;
-        z-index: 6;
-      }
 }
 
 .slogan{
@@ -108,23 +80,6 @@
     flex-grow: 0;
     z-index: 4;
 
-    @media only screen and (max-width: 480px) {
-        position: absolute;
-        justify-content: center;
-        width: 394px;
-        height: 104px;
-        top: 230px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 48px;
-        line-height: 95px;
-        color: #FFFFFF;
-        flex: none;
-        order: 6;
-        flex-grow: 0;
-        z-index: 6;
-      }
 }
 
 .cms{
@@ -145,23 +100,7 @@
     flex-grow: 0;
     z-index: 1;
 
-    @media only screen and (max-width: 480px) {
-        position: absolute;
-        justify-content: center;
-        width: 394px;
-        height: 104px;
-        top: 350px;
-        font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 78px;
-        line-height: 95px;
-        color: #FFFFFF;
-        flex: none;
-        order: 6;
-        flex-grow: 0;
-        z-index: 6;
-      }
+   
 }
 
 .ftr{
@@ -205,4 +144,89 @@
     color:#FBBE28;
     left: 20px;
     top: 43px;
+}
+
+@media (max-width: 480px) {
+    .left_circle{
+        position: absolute;
+        z-index: 2;
+        left: -490px;
+        bottom: -220px;  
+    }
+
+    .logo{
+        position: absolute;
+        justify-content: center;
+        width: 230px;
+        height: 200px;
+        top: 30px;
+    }
+
+    .comp_name{
+        position: absolute;
+        justify-content: center;
+        width: 394px;
+        height: 104px;
+        top: 200px;
+        font-size: 10px;
+        color: #FBBE28;
+    
+    }
+
+    .slogan{
+        position: absolute;
+        justify-content: center;
+        width: 253px;
+        height: 64px;
+        top: 300px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 34px;
+        /* color: #FFFFFF; */
+        color: #FBBE28;
+        flex: none;
+        order: 4;
+        flex-grow: 0;
+        z-index: 4;
+    }
+
+    .cms{
+        position: absolute;
+        width: 421px;
+        height: 45px;
+        justify-content: center;
+        top: 403px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 145.4%;
+        letter-spacing: 0.175em;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        z-index: 1;
+    }
+
+    .ftr{
+        position: absolute;
+        width: 584px;
+        height: 64px;
+        justify-content: center;
+        top: 588px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 34px;
+        color: #FEFFFF;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        z-index: 0;
+    }
 }
