@@ -42,7 +42,26 @@
     width: 481px;
     height: 317px;
     top: 13px;
+
+    animation-name: floating-logo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
+
+@keyframes floating-logo {
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(0,-10px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+    
+}
+
 
 .comp_name{
     position: absolute;
