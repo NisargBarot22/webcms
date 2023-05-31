@@ -166,9 +166,9 @@
         position: absolute;
         justify-content: center;
         width: 394px;
-        height: 104px;
-        top: 200px;
-        font-size: 10px;
+        height: 30px;
+        top: 189px;
+        font-size: 100px;
         color: #FBBE28;
     
     }
@@ -177,8 +177,8 @@
         position: absolute;
         justify-content: center;
         width: 253px;
-        height: 64px;
-        top: 300px;
+        height: 15px;
+        top: 238px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
@@ -195,9 +195,9 @@
     .cms{
         position: absolute;
         width: 421px;
-        height: 45px;
+        height: 19px;
         justify-content: center;
-        top: 403px;
+        top: 335px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 800;
@@ -214,9 +214,9 @@
     .ftr{
         position: absolute;
         width: 584px;
-        height: 64px;
+        height: 14px;
         justify-content: center;
-        top: 588px;
+        top: 498px;
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 400;
@@ -228,5 +228,14 @@
         align-self: stretch;
         flex-grow: 0;
         z-index: 0;
+    }
+
+    .email{
+        position: absolute;
+        left: 20px;
+        font-size: 20px;
+        color:#FBBE28;
+        top: 15px;
+        font-size: 10px;
     }
 }
